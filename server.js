@@ -39,11 +39,7 @@ main(async client => {
 
 }).catch((e) => {
   console.log(e);
-})
-
-
-
-
+});
 
 //Start our server and tests!
 const listener = app.listen(process.env.PORT || 3000, function () {

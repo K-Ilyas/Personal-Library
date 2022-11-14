@@ -11,6 +11,10 @@ module.exports = {
                 comments: {
                     bsonType: ["string"],
                     description: "The book comments"
+                },
+                commentcount: {
+                    bsonType: "int",
+                    description: "the book comments count"
                 }
             }
         }
